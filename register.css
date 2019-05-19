@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+body #main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  color: white;
+}
+
+body a {
+  color: #6dbf1c;
+}
+
+body a:hover {
+  color: white;
+}
+
+body #main {
+  height: 50rem;
+}
+
+body #main #registerForm {
+  width: 70%;
+  background: #6dbf1c;
+  margin: 2rem;
+  margin-left: 14rem;
+  -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+  box-shadow: 5px 5px 15px 5px #0B173C;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+body #main #registerForm #mailForm {
+  margin: 8rem auto;
+  padding: 3rem;
+  background: #092514;
+}
+
+body #main #registerForm #registerButton {
+  background: #6dbf1c;
+  color: white;
+}
+
+body #main #registerForm #registerButton:hover {
+  background: white;
+  color: #092514;
+}
+
+body #darkButterfy {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 74rem;
+  left: 66rem;
+}
+
+body #darkButterfy:hover {
+  -webkit-transition: ease all 1.5s;
+  transition: ease all 1.5s;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+}
+
+body h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+body #main {
+  background-image: url(../images/DarkGreenBackground1520-2.jpg);
+}
+
+@media (max-width: 1280px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground1280.jpg);
+  }
+  #main #darkButterfy {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 69rem;
+    left: 54rem;
+  }
+  #main #darkButterfy:hover {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 69rem;
+    left: 52rem;
+  }
+}
+
+@media (max-width: 1109px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground1100.jpg);
+  }
+  body #main #darkButterfy {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 66rem;
+    left: 48rem;
+  }
+  body #main #darkButterfy:hover {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 66rem;
+    left: 46rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground990.jpg);
+  }
+  body #main #registerForm {
+    width: 90%;
+    font-size: 15px;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 2rem;
+  }
+  body #main #darkButterfy {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 58rem;
+    left: 44rem;
+  }
+  body #main #darkButterfy:hover {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 58rem;
+    left: 42rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground760.jpg);
+  }
+  body #main #registerForm {
+    width: 90%;
+    margin-top: 2rem;
+    font-size: 15px;
+  }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 7.25rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 2rem;
+    font-size: 12px;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 13px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 13px;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 13px;
+  }
+  .form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 13px;
+  }
+  #inputEmail4 {
+    font-size: 13px;
+  }
+  h3 {
+    text-align: center;
+  }
+  body #darkButterfy {
+    display: none;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground575.jpg);
+  }
+  body #main #registerForm {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 1rem;
+  }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 4.25rem;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground400.jpg);
+  }
+  body #main #registerForm {
+    width: 77%;
+    margin-top: 3rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 1rem;
+  }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 3.25rem;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 3.5rem;
+  }
+}
+/*# sourceMappingURL=register.css.map */
