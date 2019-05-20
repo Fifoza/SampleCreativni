@@ -224,6 +224,19 @@ body #main {
   }
 }
 
+@media (max-width: 475px) {
+  body #main {
+    background-image: url(../images/DarkGreenBackground475.jpg);
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 400px) {
   body #main {
     background-image: url(../images/DarkGreenBackground400.jpg);
